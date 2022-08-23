@@ -17,5 +17,5 @@ for (int i = 1; i < array.Length; i += 2)
     sum = array[i] + sum;
 }
 
-Console.WriteLine(string.Join(", ", array));
+Console.WriteLine(string.Join(" / ", array));
 Console.WriteLine($"Сумма элементов равна {sum}");
