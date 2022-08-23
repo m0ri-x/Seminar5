@@ -5,7 +5,7 @@
 
 int[] array = new int [4];
 Random rand = new Random();
-int count = 0;
+int res = 0;
 
 for (int i = 0; i < array.Length; i++)
 {
@@ -13,10 +13,10 @@ for (int i = 0; i < array.Length; i++)
                 
         if(array[i] % 2 == 0)
         {
-            count++;
+            res += 1;
         }
 }
  
     Console.Write(string.Join(" / ", array));
-    Console.WriteLine($" Количество четных чисел - {count}");
+    Console.WriteLine($" Количество четных чисел - {res}");
   
